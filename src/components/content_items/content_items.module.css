@@ -1,0 +1,7 @@
+.items {
+    border: 1px solid skyblue;
+}
+
+.item_lists {
+    display: flex;
+}
