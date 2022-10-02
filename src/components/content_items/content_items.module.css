@@ -4,4 +4,5 @@
 
 .item_lists {
     display: flex;
+    justify-content: space-around;
 }

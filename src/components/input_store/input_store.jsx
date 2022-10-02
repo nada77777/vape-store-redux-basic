@@ -1,25 +1,22 @@
 import React from 'react';
+import { useDispatch, useSelector } from 'react-redux';
+import { cartItem } from '../redux/reducer';
 import styles from './input_store.module.css';
 
-import { useDispatch, useSelector } from 'react-redux';
-import { useNavigate } from 'react-router-dom';
-
-import { insertItem } from '../redux/store';
 
 
 
 const InputStore = ({ item }) => {
 
     const dispatch = useDispatch();
-    
+    // const selector = useSelector();
     const inputItem = () => {
-        console.log('test');
-        dispatch(insertItem(item));
+        dispatch(cartItem.actions.insertItem(item));
     };
 
 
     return(
-        <button onClick={inputItem} className={styles.button}>ip</button>
+        <button onClick={inputItem} className={styles.button}>장바구니 담기</button>
     );
 };
 

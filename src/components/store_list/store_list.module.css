@@ -1,0 +1,16 @@
+.storeList {
+    border: 3px solid orange;
+    display: flex;
+}
+
+
+.storeList > h1, button {
+    width: 10%;
+}
+
+
+.storeList > .name {
+   width: 60%;
+}
+
+

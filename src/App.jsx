@@ -23,7 +23,6 @@ function App({ InputBtn, Data, database }) {
 
   
   const addItem = (item) => {
-      console.log('insert');
       setItems(item);
   }
 

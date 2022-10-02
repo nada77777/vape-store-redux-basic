@@ -1,5 +1,26 @@
 .navbar {
-    position: absolute;
+    display: flex;
+    /* position: absolute;
     top: 0;
     left: 0;
+    right: 0; */
+    border: 1px solid black;
+    padding: 12px 20px;
+    align-items: center;
+}
+
+.navbar > h1 {
+    font-size: 28px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+
+.navbar > li, a {
+    font-size: 22px;
+    text-decoration: none;
+    color: black;
+    margin: 0px 5px;
+    line-height: 36px;
+    cursor: pointer;
 }

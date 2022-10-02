@@ -1,0 +1,29 @@
+.itemStore {
+    font-size: 10px;
+    color: white;
+    width: 900px;
+    text-align: center;
+}
+
+
+.ul {
+    border: 3px solid white;
+    padding: 3px;
+}
+
+
+.li {
+    display: flex;
+    border: 3px solid white;
+    padding: 6px;
+
+}
+
+.li > h1 {
+    width: 10%;
+}
+
+.li > .name {
+   width: 60%;
+}
+

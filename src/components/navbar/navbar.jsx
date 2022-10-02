@@ -4,16 +4,11 @@ import styles from './navbar.module.css';
 
 const Navbar = (props) => {
 
-
-
-    
-
-
-
     return(
         <nav className={styles.navbar}>
-            <li>111h</li>
-            <Link to='/repo'>222st</Link>
+            <h1>Vape shop</h1>
+            <Link to='/'>메인</Link>
+            <Link to='/repo'>장바구니</Link>
         </nav>
     );
 };

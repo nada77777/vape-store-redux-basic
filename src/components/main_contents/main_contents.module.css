@@ -1,0 +1,12 @@
+.mainContents {
+    position: absolute;
+    top: 0;
+}
+
+.mainImg {
+    width: 100%;
+    background-position: center/cover;
+    background-repeat: no-repeat;
+    
+}
+
