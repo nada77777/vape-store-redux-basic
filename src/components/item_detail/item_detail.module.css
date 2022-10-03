@@ -1,9 +1,10 @@
 .itemDetail {
-    border: 1px solid black;
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
     padding: 12px;
-
     cursor: pointer;
-  
+    margin-top: 50px;
+    position: relative;
+    border-radius: 6px;
 }
 
 .imgBox {
@@ -19,14 +20,41 @@
     height: 100%;
 }
 
+.itemSpec {
+    text-align: center;
+}
+
 .title {
     font-weight: 700;
-    font-size: 15px;
-    color: #007f99;
+    font-size: 28px;
     padding: 2px 0;
 }
 
-.company, .tag {
+.company, .strong, .size {
     font-size: 12px;
     color: #ccc;
+}
+
+
+.itemInfo {
+    text-align: center;
+    background-color: #fff0f0;
+    padding: 15px 100px;
+    margin-top: 5px;
+}
+
+.info {
+    font-size: 14px;
+}
+
+.tag {
+    margin: 10px 0;
+    color: #007f99;
+    font-weight: 700;
+}
+
+.inputBtn {
+    background-color: #007f99;
+    position: absolute;
+    top: 0;
 }

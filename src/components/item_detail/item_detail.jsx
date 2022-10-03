@@ -17,15 +17,17 @@ const ItemDetail = ({ InputBtn }) => {
             <div className={styles.imgBox}>
                 <img alt='img' src={imgPath}></img>
             </div>
-            <p className={styles.company}>{company}</p>
-            <h1 className={styles.title}>{title}</h1>
-            <p>{strong}</p>
-            <p>{size}</p>
-            <div className={styles.itemInfo}>
-            <p>{info}</p>
-            <p className={styles.tag}>{tag}</p>
+            <div className={styles.itemSpec}>
+                <p className={styles.company}>{company}</p>
+                <h1 className={styles.title}>{title}</h1>
+                <p className={styles.strong}>{strong}</p>
+                <p className={styles.size}>{size}</p>
             </div>
-            <InputBtn item={item}/>
+            <div className={styles.itemInfo}>
+                <p className={styles.info}>{info}</p>
+                <p className={styles.tag}>{tag}</p>
+            </div>
+                <InputBtn item={item}/>
         </div>
         </>
     );

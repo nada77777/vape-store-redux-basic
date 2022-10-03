@@ -1,22 +1,24 @@
 .itemStore {
     font-size: 10px;
-    color: white;
-    width: 900px;
+    color: black;
+    width: 100%;
     text-align: center;
 }
 
 
 .ul {
-    border: 3px solid white;
-    padding: 3px;
+ 
+    padding: 100px;
+
 }
 
 
 .li {
     display: flex;
-    border: 3px solid white;
+    background-color: #007f99;
+    color: white;
     padding: 6px;
-
+    font-size: 8px;
 }
 
 .li > h1 {
@@ -25,5 +27,10 @@
 
 .li > .name {
    width: 60%;
+}
+
+button {
+    border: 1px solid black;
+    margin: 0 2px;
 }
 

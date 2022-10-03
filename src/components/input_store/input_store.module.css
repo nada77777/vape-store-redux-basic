@@ -1,7 +1,22 @@
 .button {
-    border: 3px solid black;
-    padding: 8px;
+    border: 2px solid #ccc;
+    color: #ccc;
+    width: 120px;
     border-radius: 6px;
-    margin: 7px 0;
+    margin: 7px 5px;
     cursor: pointer;
+    padding: 8px 10px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-weight: 800;
+}
+
+.button:hover {
+    border: 2px solid #ccc;
+    /* color: orange; */
+
+
+    background-color: tomato;
+    color: white;
 }

@@ -1,6 +1,8 @@
 .storeList {
-    border: 3px solid orange;
+    border-bottom: 1px solid #007f99;
     display: flex;
+    padding: 8px 0;
+    font-size: 7px;
 }
 
 

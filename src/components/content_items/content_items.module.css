@@ -1,5 +1,6 @@
 .items {
-    border: 1px solid skyblue;
+    padding-top: 30px;
+    border-top: 2px solid skyblue;
 }
 
 .item_lists {
